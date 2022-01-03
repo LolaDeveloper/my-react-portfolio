@@ -14,7 +14,7 @@ const Navbar = () => {
           <NavLink to="/about" activeStyle>
             About Me
           </NavLink>
-          <NavLink to="/my-projects" activeStyle>
+          <NavLink to="/MyWork" activeStyle>
             My Projects
           </NavLink>
           <NavLink to="/contact-me" activeStyle>
