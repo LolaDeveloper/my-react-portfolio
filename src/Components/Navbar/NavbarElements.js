@@ -3,7 +3,7 @@ import { NavLink as Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 
 export const Nav = styled.nav`
-background:#000;
+background:#D8C8DA;
 height:80px;
 display: flex:
 justify-content: space-between;
@@ -11,7 +11,7 @@ padding: 0.5rem calc((100vw-1000px) /2);
 z-index:10;
 `;
 export const NavLink = styled(Link)`
-color:#fff;
+color:#000;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -23,6 +23,11 @@ cursor:pointer;
     color: #15cdfc;
 }
 `;
+
+export const PageLogo = styled.img`
+  max-height: 40px;
+`;
+
 export const Bars = styled(FaBars)`
   display: none;
   color: #fff;

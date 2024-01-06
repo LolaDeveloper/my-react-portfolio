@@ -1,0 +1,216 @@
+:root {
+  --branding-color: #6c63ff;
+  --primary-color: #fbf2fc;
+  --secondary-color: #f9f7fe;
+  --support-color: #d8c8da;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 96px;
+}
+h3 {
+  font-size: 48px;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+.hero {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 80px 20px 10px;
+}
+
+.hero p {
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero-page {
+  background-color: var(--primary-color);
+}
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+}
+.content-container {
+  padding: 60px 20px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content h2 {
+  font-size: 30px;
+  font-family: var(--default-font-family);
+}
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
+.content p {
+  font-size: 18px;
+}
+.content {
+  margin: 30px;
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin: 25px 20px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-description {
+  padding: 120px 60px;
+}
+
+.logo {
+  max-height: 40px;
+}
+.my-skills img {
+  width: 100px;
+  height: 100px;
+}
+nav {
+  padding: 20px 0;
+  background-color: var(--support-color);
+  width: 100%;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+  background-color: var(--support-color);
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+  font-size: 24px;
+}
+.fa-envelope {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: var(--branding-color);
+  padding: 10px 14px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: var(--branding-color);
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  .hero-page {
+    text-align: center;
+  }
+  .description-homepage {
+    padding: 0px;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+  .content h2 {
+    font-size: 20px;
+  }
+  .project-description {
+    padding: 0;
+  }
+  nav ul {
+    list-style-position: inside;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 5px;
+  }
+}
